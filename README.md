@@ -31,7 +31,7 @@ npm i pm2 -g
 
 # PM2 config
 
-server.config.js
+ecosystem.config.js
 ```js
 module.exports = {
   apps: [{
