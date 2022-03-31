@@ -1,0 +1,6 @@
+[submodule "nodejs-project-1"]
+	path = nodejs-project-1
+	url = https://github.com/PhamHuyThien/nodejs-project-1
+[submodule "nodejs-project-2"]
+	path = nodejs-project-2
+	url = https://github.com/PhamHuyThien/nodejs-project-2

@@ -1,0 +1,28 @@
+{
+  "name": "nodejs-workspace",
+  "version": "1.0.0",
+  "description": "all project",
+  "main": "server.config.js",
+  "scripts": {
+    "start": "pm2 start | pm2 logs",
+    "stop-all": "pm2 stop all",
+    "restart-all": "pm2 restart all",
+    "del-all": "pm2 del all",
+    "log": "pm2 logs",
+    "ls": "pm2 ls"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PhamHuyThien/nodejs-workspace.git"
+  },
+  "author": "Pham Huy Thien",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PhamHuyThien/nodejs-workspace/issues"
+  },
+  "homepage": "https://github.com/PhamHuyThien/nodejs-workspace#readme",
+  "workspaces": [
+    "nodejs-project-1",
+    "nodejs-project-2"
+  ]
+}
