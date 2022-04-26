@@ -1,6 +1,7 @@
-# Git init
+# init
 ```cmd
 git init
+npm init
 ```
 # Git add submodule 
 ```cmd
@@ -61,7 +62,10 @@ module.exports = {
 ```cmd
 npm i
 ```
-
+# Clone project
+```cmd
+git clone --recurse-submodules -j8 https://xxx.git
+```
 # How to use?
 ```cmd
 pm2 start
